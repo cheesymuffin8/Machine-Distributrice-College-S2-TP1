@@ -1,0 +1,92 @@
+
+.clavier {
+    background: #4b1e04;
+    border: 2.5px solid #724100;
+    border-radius: var(--rayon-bordure-md);
+    filter: drop-shadow(0px 0px 30px #4e2300);
+    padding: 14px;
+    flex-shrink: 0;
+}
+
+.clavier-grille {
+    /* TODO: Mettre le clavier en grille de 3 colonnes */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    /* TODO: Mettre l'espace entre les boutons de 10px */ 
+    gap: 10px;
+}
+
+.bouton {
+    height: 56px;
+    border-radius: var(--rayon-bordure-sm);
+    border: 2px solid #bd7d2a;
+    background: #a75b13;
+    color: var(--texte-fort);
+    transition: background .15s ease, border-color .15s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+@media (min-width:1024px) {
+    .bouton {
+        height: 64px;
+    }
+}
+
+.bouton:hover {
+    background: #b86c26;
+    border-color: #d89b4b;
+    filter: drop-shadow(0px 0px 5px #a5741a);
+}
+
+.bouton:active {
+    background: #8d4e12;
+    transform: none;
+}
+
+.chiffre {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+@media (min-width:1024px) {
+    .chiffre {
+        font-size: 26px;
+    }
+}
+
+.lettres {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--bleu2);
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+
+.bouton-eff {
+    background: #b34100;
+    border-color: #e26d00;
+    color: #ffac5e;
+}
+
+.bouton-eff:hover {
+    background: #db5000;
+    border-color: #ff912a;
+}
+
+.bouton-ok {
+    background: #db5b11;
+    border-color: #e28228;
+    color: #ffbe82;
+}
+
+.bouton-ok:hover {
+    background: #eb7430;
+    border-color: #e99649;
+}
