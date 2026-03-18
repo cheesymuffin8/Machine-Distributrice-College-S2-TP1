@@ -18,11 +18,11 @@ function style_curseur(style) {
     switch (style) {
         case 0:
             curseur.style.backgroundSize = "26px 26px";
-            curseur.style.backgroundImage = `url("../images/curseur.png")`;
+            curseur.style.backgroundImage = `url("./images/curseur.png")`;
         break;
         case 1:
             curseur.style.backgroundSize = "30px 30px";
-            curseur.style.backgroundImage = `url("../images/curseur_click.png")`;
+            curseur.style.backgroundImage = `url("./images/curseur_click.png")`;
         break;
     }
 }
