@@ -1,9 +1,0 @@
-Ce n'est pas moi qui ai créé ce dossier, je voulais juste vraiment pouvoir jouer à DOOM dans mon site web.
-J'ai trouvé comment faire ceci en suivant de la documentation et en copiant-collant des choses faites par des programmeurs beaucoup plus bons que moi (https://dwasm.m-h.org.uk).
-Le jeu DOOM utilisé est la version shareware, qui est légale à redistribuer et n'est pas la version complète de DOOM 1.
-Cette version shareware est distribuée gratuitement par ses ayants droit et est spécifiquement autorisée à être copiée et partagée, tant qu’elle n’est pas modifiée ni vendue comme un produit complet.
-Elle ne contient qu’une partie du jeu original et sert à des fins de démonstration.
-Si vous avez un problème avec cette partie de mon travail, contactez-moi, et je vais l'enlever.
-
-Sincèrement,
-Kasey Tremblay
